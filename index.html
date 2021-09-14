@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>scGUI | Su Lab</title>
+    
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/features.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      @font-face {
+          font-family: 'Source Sans Pro';
+          src: url(SourceSansPro-ExtraLight.ttf);
+      }
+
+      .card {
+        opacity:  1;
+        transition: .5s ease;
+      }
+
+      .card:hover {
+        opacity: 0.7;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="document" viewBox="0 0 16 16">
+    <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+    <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+  </symbol>
+</svg>
+<main>
+
+  <div class="container px-4 py-5 text-center" style="margin-top: 75px;">
+    <h1 style="font-family: 'Source Sans Pro';">scGUI</h1>
+    <h4 style="font-family: 'Source Sans Pro';">Maureen Su Lab</h4>
+  </div>
+  
+
+  <div class="container px-4" id="custom-cards">
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <a href="seurat.html">
+          <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg" style="background-color: #7393B3;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Seurat</h2>
+              <p>High-resolution RNA expression data analysis</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      
+
+      <div class="col">
+        <a href="cellchat.html">
+          <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg" style="background-color: #7393B3;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">CellChat</h2>
+
+              <p>Cell-cell communication inference based on scRNA-seq data</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      
+
+      <div class="col">
+          <a href="vision.html">
+            <div class="card card-cover h-100 overflow-hidden text-white rounded-5 shadow-lg" style="background-color: #7393B3;">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">VISION</h2>
+
+                <p>Biological pathway analysis using scRNA-seq data</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <a href="files.html">
+        <div class="card card-cover h-25 overflow-hidden text-white rounded-5 shadow-lg" style="background-color: #7393B3;">
+          <div class="d-flex flex-column p-5 pb-3 text-white text-shadow-1">
+            <h4>File Manager</h4>
+            <p></p>
+          </div>
+        </div>
+      </a>
+      </div>
+  </div>
+
+  <br>
+
+  <div class="container px-4 py-5" id="icon-grid">
+    <h2 class="pb-2 border-bottom" style="font-family: 'Source Sans Pro';">Citations</h2>
+
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><strong>Seurat (V4):</strong> Hao, Yuhan, et al. “Integrated Analysis of Multimodal Single-Cell Data.” Cell, vol. 184, no. 13, 2021, doi:10.1016/j.cell.2021.04.048.</li>
+      <li class="list-group-item"><strong>CellChat (V1):</strong> Jin, Suoqin, et al. “Inference and Analysis of Cell-Cell Communication Using Cellchat.” Nature Communications, vol. 12, no. 1, 2021, doi:10.1038/s41467-021-21246-9.</li>
+      <li class="list-group-item"><strong>VISION (V3):</strong> DeTomaso, David, et al. “Functional Interpretation of Single Cell Similarity Maps.” Nature Communications, vol. 10, no. 1, 2019, doi:10.1038/s41467-019-12235-0.</li>
+    </ul>
+  </div>
+</main>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
